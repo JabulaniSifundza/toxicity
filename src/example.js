@@ -1,4 +1,5 @@
 // The minimum prediction confidence.
+import * as toxicity from '@tensorflow-models/toxicity';
 const threshold = 0.9;
 
 // Load the model. Users optionally pass in a threshold and an array of
